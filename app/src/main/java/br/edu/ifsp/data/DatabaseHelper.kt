@@ -1,10 +1,10 @@
-package br.edu.ifsp.Data
+package br.edu.ifsp.data
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import br.edu.ifsp.Model.Contato
+import br.edu.ifsp.model.Contato
 
 class DatabaseHelper(context: Context):
     SQLiteOpenHelper(context,DATABASE_NAME,null,DATABASE_VERSION) {
