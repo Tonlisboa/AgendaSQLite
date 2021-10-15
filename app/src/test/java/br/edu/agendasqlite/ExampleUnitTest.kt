@@ -1,4 +1,4 @@
-package br.edu.ifsp
+package br.edu.agendasqlite
 
 import org.junit.Test
 

@@ -11,6 +11,6 @@
     <item
         android:id="@+id/action_excluirContato"
         android:title="Excluir"
-        android:icon="@android:drawable/ic_delete"/>
+        android:icon="@android:drawable/ic_menu_delete"/>
 
 </menu>

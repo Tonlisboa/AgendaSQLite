@@ -1,4 +1,4 @@
-package br.edu.ifsp.activity
+package br.edu.agendasqlite.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,9 +6,9 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.EditText
 import android.widget.Toast
-import br.edu.ifsp.data.DatabaseHelper
-import br.edu.ifsp.model.Contato
-import br.edu.ifsp.R
+import br.edu.agendasqlite.data.DatabaseHelper
+import br.edu.agendasqlite.model.Contato
+import br.edu.agendasqlite.R
 
 class DetalheActivity : AppCompatActivity() {
     private var contato = Contato()
